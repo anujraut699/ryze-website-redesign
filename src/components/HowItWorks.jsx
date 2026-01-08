@@ -1,4 +1,4 @@
-import '../styles/components/HowItWorks.css'
+import '../styles/components/howitworks.css'
 
 function HowItWorks() {
   return (

@@ -1,4 +1,4 @@
-import '../styles/components/FeaturesList.css'
+import '../styles/components/featureslist.css'
 
 function FeaturesList() {
   const features = [

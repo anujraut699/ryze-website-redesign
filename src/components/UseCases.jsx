@@ -1,4 +1,4 @@
-import '../styles/components/UseCases.css'
+import '../styles/components/usecases.css'
 
 function UseCases() {
   const cases = [
