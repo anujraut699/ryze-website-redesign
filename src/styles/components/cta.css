@@ -1,0 +1,56 @@
+/* CTA – BOLD AI STYLE */
+
+.cta {
+  margin: 120px 0;
+  padding: 80px 20px;
+  border-radius: 24px;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(124, 58, 237, 0.25),
+      transparent 40%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(30, 41, 59, 0.95),
+      rgba(2, 6, 23, 0.95)
+    );
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.cta p {
+  font-size: 18px;
+  color: var(--text-muted);
+  max-width: 620px;
+  margin: 0 auto 36px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: var(--gradient-main);
+  padding: 16px 36px;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 50px rgba(124, 58, 237, 0.6);
+}
+
+.cta-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+

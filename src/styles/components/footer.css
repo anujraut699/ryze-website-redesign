@@ -1,0 +1,26 @@
+.footer {
+  background-color: var(--bg-dark);
+  border-top: 1px solid var(--border-dark);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-text {
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-link {
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  color: var(--primary-purple);
+}

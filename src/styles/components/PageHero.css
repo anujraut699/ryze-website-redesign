@@ -1,0 +1,39 @@
+.page-hero {
+  padding: 120px 0 80px;
+  background:
+    radial-gradient(
+      circle at top center,
+      rgba(124, 58, 237, 0.25),
+      transparent 45%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(30, 41, 59, 0.95),
+      rgba(2, 6, 23, 0.95)
+    );
+  border-bottom: 1px solid rgba(124, 58, 237, 0.3);
+}
+
+.page-hero-inner {
+  text-align: center;
+}
+
+.page-hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+
+.page-hero h1 span {
+  background: var(--gradient-main);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.page-hero p {
+  font-size: 18px;
+  color: var(--text-muted);
+  max-width: 640px;
+  margin: 0 auto;
+}
