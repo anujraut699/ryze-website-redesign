@@ -88,4 +88,16 @@
   .nav {
     gap: 20px;
   }
+
+  .nav-cta {
+  margin-left: 3px;
+  padding: 9px 10px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  }
+  .header {
+  padding: 10px 22px;
+  }
+
 }
