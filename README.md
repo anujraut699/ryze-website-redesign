@@ -3,7 +3,7 @@
 A redesign of the Ryze AI website focused on improving clarity, user experience, and visual hierarchy using a modular React component structure.
 
 ## Live Demo
-https://your-live-link.vercel.app
+https://ryze-redesign-wine.vercel.app/
 
 ## Pages
 - Home
